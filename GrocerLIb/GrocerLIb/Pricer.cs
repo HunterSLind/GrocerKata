@@ -6,7 +6,7 @@ namespace GrocerLib
     {
         public static decimal CheckPrice()
         {
-            return 0;
+            return 1.99M;
         }
     }
 }
