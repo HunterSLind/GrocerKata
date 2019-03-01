@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrocerLIb", "GrocerLIb\GrocerLIb.csproj", "{68C5451A-6C77-477C-BF64-BCAD4BDF77A4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrocerLib", "GrocerLIb\GrocerLib.csproj", "{68C5451A-6C77-477C-BF64-BCAD4BDF77A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrocerTests", "GrocerTests\GrocerTests.csproj", "{C86EEEDB-903D-4DAF-8247-93F13E25DBEB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{68C5451A-6C77-477C-BF64-BCAD4BDF77A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68C5451A-6C77-477C-BF64-BCAD4BDF77A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68C5451A-6C77-477C-BF64-BCAD4BDF77A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C86EEEDB-903D-4DAF-8247-93F13E25DBEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C86EEEDB-903D-4DAF-8247-93F13E25DBEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C86EEEDB-903D-4DAF-8247-93F13E25DBEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C86EEEDB-903D-4DAF-8247-93F13E25DBEB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
