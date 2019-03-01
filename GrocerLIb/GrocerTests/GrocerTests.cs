@@ -38,5 +38,11 @@ namespace GrocerTests
         {
             Assert.AreEqual(true, pricer.SetNewItemPrice("Apple", 0.99M));
         }
+
+        [TestMethod]
+        public void TestSetAlreadyAddedItemPrice()
+        {
+            Assert.AreEqual(false, pricer.SetNewItemPrice("HotDog", 1.99M));
+        }
     }
 }
