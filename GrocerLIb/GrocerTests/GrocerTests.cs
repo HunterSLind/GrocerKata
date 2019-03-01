@@ -10,7 +10,7 @@ namespace GrocerTests
         [TestMethod]
         public void TestPriceCheck()
         {
-            Assert.AreEqual(1.99, Pricer.CheckPrice());
+            Assert.AreEqual(1.99M, Pricer.CheckPrice());
         }
     }
 }
