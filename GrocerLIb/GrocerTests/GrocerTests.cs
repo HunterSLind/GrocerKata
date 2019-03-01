@@ -32,5 +32,11 @@ namespace GrocerTests
         {
             Assert.AreEqual(-1, pricer.CheckPrice("I'm not an Item"));
         }
+
+        [TestMethod]
+        public void TestSetNewItemPrice()
+        {
+            Assert.AreEqual(true, pricer.SetNewItemPrice("Apple", 0.99M));
+        }
     }
 }

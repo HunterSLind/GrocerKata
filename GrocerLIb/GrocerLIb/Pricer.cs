@@ -19,10 +19,17 @@ namespace GrocerLib
             return -1;
         }
 
+        public bool SetNewItemPrice(string itemName, decimal price)
+        {
+            return false;
+        }
+
         private Dictionary<string, decimal> itemPriceDictionary = new Dictionary<string, decimal>
         {
             {"", -1 },
             {"HotDog", 1.99M }
         };
+
+        
     }
 }
