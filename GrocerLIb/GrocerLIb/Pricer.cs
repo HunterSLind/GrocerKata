@@ -17,6 +17,7 @@ namespace GrocerLib
 
         private Dictionary<string, decimal> itemPriceDictionary = new Dictionary<string, decimal>
         {
+            {"", -1 },
             {"HotDog", 1.99M }
         };
     }
