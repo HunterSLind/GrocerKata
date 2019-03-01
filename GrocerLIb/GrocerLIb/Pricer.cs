@@ -14,6 +14,8 @@ namespace GrocerLib
         {
             switch(itemName)
             {
+                case "HotDog":
+                    return 1.99M;
                 default:
                     return 0.00M;
             }
