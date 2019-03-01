@@ -12,7 +12,11 @@ namespace GrocerLib
 
         public decimal CheckPrice(string itemName)
         {
-            return itemPriceDictionary[itemName];
+            if(itemPriceDictionary.ContainsKey(itemName))
+            {
+                return itemPriceDictionary[itemName];
+            }
+            return -1;
         }
 
         private Dictionary<string, decimal> itemPriceDictionary = new Dictionary<string, decimal>
