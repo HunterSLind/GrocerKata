@@ -20,5 +20,11 @@ namespace GrocerTests
         {
             Assert.AreEqual(1.99M, pricer.CheckPrice("HotDog"));
         }
+
+        [TestMethod]
+        public void TestItemPriceWithEmptyName()
+        {
+            Assert.AreEqual(-1, pricer.CheckPrice(""));
+        }
     }
 }
