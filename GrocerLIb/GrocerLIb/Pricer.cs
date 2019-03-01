@@ -21,7 +21,7 @@ namespace GrocerLib
 
         public bool SetNewItemPrice(string itemName, decimal price)
         {
-            return false;
+            return true;
         }
 
         private Dictionary<string, decimal> itemPriceDictionary = new Dictionary<string, decimal>
